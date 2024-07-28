@@ -1,14 +1,14 @@
-# Athlo Blitz
+# Green Nest Nursery
 
-Welcome to `Athlo Blitz`, the premier Sports Facility Booking Platform designed to simplify the booking process for Sports Facility.
+Welcome to **Green Nest Nursery**, your ultimate online destination for premium plants and gardening essentials. Our platform simplifies the process of discovering, selecting, and purchasing the best plants and gardening supplies for your home or business.
 
-## Overview 
+## Overview
 
-`Athlo Blitz` is a comprehensive web application that streamlines the process of reserving sports facilities. Whether you're a freelancer, entrepreneur, or doing work from home and looking for sports facility to keep you body fit, `Athlo Blitz` provides an intuitive platform to efficiently manage your sports facility needs.
+**Green Nest Nursery** is a comprehensive web application designed to bring the joy of gardening right to your doorstep. Whether you're a seasoned gardener, a plant enthusiast, or someone just starting out, Green Nest Nursery offers an intuitive platform to cater to all your gardening needs.
 
 ## Table of Contents
 
-- [Athlo Blitz](#athlo-blitz)
+- [Green Nest Nursery](#green-nest-nursery)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
   - [Technology Stack](#technology-stack)
@@ -17,22 +17,20 @@ Welcome to `Athlo Blitz`, the premier Sports Facility Booking Platform designed 
   - [Scripts](#scripts)
   - [Contributing](#contributing)
 
-
 ## Technology Stack
 
-- **Backend**: `Node.js` and `Express.js` for building a robust server-side application.
-- **Database**: MongoDB with `Mongoose` for efficient data storage and retrieval.
+- **Frontend**: `React.js`, `Redux` with `Tailwind CSS` and `Ant Design` for a seamless and attractive user interface.
+- **Backend**: `Node.js` and `Express.js` for a robust server-side application.
+- **Database**: `MongoDB` with `Mongoose` for efficient data storage and retrieval.
 - **Authentication**: `JSON Web Tokens (JWT)` for secure user authentication and authorization.
 - **TypeScript**: Enhancing codebase maintainability and scalability with statically typed `JavaScript`.
-
 
 ## Installation
 
 1. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/antudaa/Athlo_Blitz.git
-   cd athlo-blitz
+   https://github.com/antudaa/green_nest_nursery.git
    ```
 
 2. **Install dependencies**:
