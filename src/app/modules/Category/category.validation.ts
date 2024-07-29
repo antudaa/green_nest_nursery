@@ -12,10 +12,8 @@ export const createCategoryValidationSchema = z.object({
 });
 
 export const updateCategoryValidationSchema = z.object({
-  body: z.object({
-    categoryName: z.string().optional(),
-    categoryImage: z.string().optional(),
-  }),
+  categoryName: z.string().optional(),
+  categoryImage: z.string().optional(),
 });
 
 export const categoryValidations = {

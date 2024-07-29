@@ -29,15 +29,13 @@ export const createProductValidationSchema = z.object({
 });
 
 export const updateProductValidationSchema = z.object({
-  body: z.object({
-    category: z.string().optional(),
-    title: z.string().optional(),
-    price: z.number().optional(),
-    description: z.string().optional(),
-    quantity: z.string().optional(),
-    rating: z.number().optional(),
-    productImage: z.string().optional(),
-  }),
+  category: z.string().optional(),
+  title: z.string().optional(),
+  price: z.number().optional(),
+  description: z.string().optional(),
+  quantity: z.string().optional(),
+  rating: z.number().optional(),
+  productImage: z.string().optional(),
 });
 
 export const productValidation = {
