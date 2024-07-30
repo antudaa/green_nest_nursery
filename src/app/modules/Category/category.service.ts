@@ -21,8 +21,17 @@ const deleteCategoryFromDB = async (id: string) => {
 };
 
 const getAllCategoryFromDB = async () => {
-  const resutl = await Category.find();
-  return resutl;
+  const categoryQuery = await Category.find();
+  const totalCountPromise = Category.countDocuments();
+
+  const [categories, totalCount] = await Promise.all([
+    categoryQuery,
+    totalCountPromise
+  ]);
+
+  const result = { total: totalCount, data: categories }
+
+  return result;
 };
 
 export const CategoryServices = {

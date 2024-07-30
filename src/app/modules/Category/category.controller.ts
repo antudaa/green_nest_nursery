@@ -43,7 +43,7 @@ const deleteCategoryFromDB: RequestHandler = catchAsync(async (req, res) => {
 const getAllCategoryFromDB: RequestHandler = catchAsync(async (req, res) => {
   const result = await CategoryServices.getAllCategoryFromDB();
 
-  if (result.length === 0) {
+  if (result.data.length === 0) {
     return noDataFound(res);
   }
 
