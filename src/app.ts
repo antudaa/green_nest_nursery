@@ -11,7 +11,8 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://green-nest-nursery-client.vercel.app/"
+    "https://green-nest-nursery-client.vercel.app",
+    "https://green-nest-nursery-backend.vercel.app",
   ]
 }));
 app.use(cookieParser());

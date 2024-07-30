@@ -17,7 +17,11 @@ export type TShippingAddress = {
 export type TProductInfo = {
   productId: string; // Added productId
   productName: string;
-  category: string;
+  category: {
+    _id: string;
+    categoryName: string;
+    categoryImage: string;
+  };
   unitPrice: number;
   productImage: string;
   quantity: number;
@@ -34,4 +38,4 @@ export type TOrder = {
   };
 };
 
-export interface OrderModel extends Model<TOrder> {}
+export interface OrderModel extends Model<TOrder> { }
